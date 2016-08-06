@@ -1,80 +1,235 @@
-<!DOCTYPE HTML>
-<html>
-	<head>
-		<title>唐忠正的个人简历</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-	</head>
-	<body class="landing">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
 
-		<!-- Page Wrapper -->
-			<div id="page-wrapper">
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <title>唐忠正|个人简历</title>
 
-				<!-- Header -->
-					<header id="header" class="alt">
-						<h1>唐忠正的简历</h1>
-						
-					</header>
+</head>
+<body>
+<nav class="navbar navbar-default navbar-fixed-top navbar-color-on-scroll">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed  btn-primary" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" >
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">
+                    <div class="brand-img">
+                        <img src="img/pic01.jpg" width="40" height="40">
+                    </div>
+                    <span class="brand-name">唐忠正</span>
+                </a>
+            </div>
 
-				<!-- Banner -->
-			  <section id="banner">
-				<div class="inner">
-					<h2>TAKE ME AWAY </h2>
-							<p>细节控，完美主义者。</p>
-							<p>&nbsp;</p>
-					<p>&nbsp;</p>
-				</div>
-				  <a href="#one" class="more scrolly">Learn More</a>				</section>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav ">
+                    <li><a href="http://www.farcas.tk" target="_blank">Blog<span class="sr-only">(current)</span></a></li>
+                    <li><a href="https://github.com/LeasyOS" target="_blank">GitHub</a></li>
+                    <li><a href="http://weibo.com/u/5031469421" target="_blank">Weibo</a></li>
+                    <li><a href="pdf/resume.pdf" download>PDF-Download</a></li>
 
-				
+                </ul>
 
-				<!-- Two -->
-					<section id="two" class="wrapper alt style2">
-						<section class="spotlight">
-							<div class="image"><img src="images/pic01.jpg" alt="" /></div><div class="content">
-								<h2>基本信息</h2>
-								<p>姓名：  唐忠正</p>
-								<p>学校：  天津工业大学计算机与软件学院计算机系在读 2017年6月毕业</p>
-								<p>手机：  15302038371</p>
-								<p>邮箱：  tzhongzheng@gmail.com</p>
-							</div>
-						</section>
-						
-						
-						
-						<section class="spotlight">
-							<div class="image"><img src="images/pic02.jpg" alt="" /></div><div class="content">
-								<h2>实习经历/项目经验</h2>
-								<p>东软 郎建新世纪公司</p>
-								<p>ecall物流公司物流系统web版开发</p>
-							</div>
-						</section>
-						<section class="spotlight">
-							<div class="image"><img src="images/pic03.jpg" alt="" /></div><div class="content">
-								<h2>擅长技术</h2>
-								<p>HTML CSS JavaScript JQuery Java C# SQL</p>
-								<p>sketch keynote</p>
-								<p>&nbsp;</p>
-							</div>
-						</section>
-					   
-					</section>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+</nav>
+<div class="wrapper">
+    <!-- 头部图片-->
+    <div class="header" style="background-image: url('img/bg1.jpg');">
+    </div>
+
+    <!-- 主要内容-->
+    <div class="main main-raised">
+        <div class="container">
+
+            <!-- 头像&描述 -->
+            <div class="row">
+                <div class="profile">
+                    <div class="avatar">
+                        <img src="img/pic01.jpg" alt="Circle Image" class="img-circle img-responsive img-raised">
+                    </div>
+                    <div class="name">
+                        <h3 class="title">唐忠正</h3>
+                        <h6>Web Designer</h6>
+                    </div>
+                </div>
+            </div>
+
+            <!--描述-->
+            <div class="description">
+                <p>Make the world a more beautiful place. </p>
+            </div>
 
 
-			</div>
+            <!--内容切换-->
+            <div class="row" >
+                <div class="col-md-6 col-sm-offset-3  col-md-offset-4">
+                    <div class="profile-tabs">
+                        <div class="nav-align-center">
+                            <ul class="nav nav-pills" role="tablist">
+                                <li class="active">
+                                    <a href="#me" role="tab" data-toggle="tab">
+                                        <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+                                        <br/>
+                                        <span>个人资料</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#tech" role="tab" data-toggle="tab">
+                                        <span class="glyphicon glyphicon-tree-conifer" aria-hidden="true"></span>
+                                        <br/>
+                                        <span>&nbsp;技能树&nbsp;</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#experence" role="tab" data-toggle="tab">
+                                        <span class="glyphicon glyphicon-folder-close" aria-hidden="true"></span>
+                                        <br/>
+                                        <span>实习/项目</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#more" role="tab" data-toggle="tab">
+                                        <span class="glyphicon glyphicon-th" aria-hidden="true"></span>
+                                        <br/>
+                                        <span>&nbsp;&nbsp;&nbsp;更多&nbsp;&nbsp;&nbsp;</span>
+                                    </a>
+                                </li>
+                            </ul>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="assets/js/main.js"></script>
 
-	</body>
+                            <div class="tab-content">
+                                <div class="tab-pane active" id="me">
+                                    <div class="row">
+                                        <div class="col-md-6 text-style">
+                                            <span>学校：天津工业大学</span><br/>
+                                            <span>专业：计算机科学与技术专业</span><br/>
+                                            <span>毕业年份：<i>2017</i></span><br/>
+                                            <span>电话：<i>15302038371</i></span><br/>
+                                            <span>Email：<i>tzhongzheng@gmail.com</i></span><br/>
+                                            <span>BLOG：<a href="http://www.farcas.tk"><i>farcas.tk</i></a></span><br/>
+                                            <span>GitHub：<a href="https://github.com/LeasyOS"><i>https://github.com/LeasyOS</i></a> </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane text-style" id="tech">
+                                    <div class="row">
+                                        <div class="col-md-8 col-sm-8">
+
+                                            <table class="table table-hover">
+                                                <tr>
+                                                    <td>HTML</td>
+                                                    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;80%</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>CSS</td>
+                                                    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;80%</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>JavaScript</td>
+                                                    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;80%</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>JQuery</td>
+                                                    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;60%</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Bootstrap</td>
+                                                    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;80%</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>React.JS</td>
+                                                    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;60%</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Node.JS</td>
+                                                    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;60%</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Java</td>
+                                                    <td>Python</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Linux</td>
+                                                    <td>GitHub</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Axure</td>
+                                                    <td>keynote</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>learning...</td>
+                                                    <td></td>
+                                                </tr>
+
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane text-style" id="experence">
+                                    <div class="row">
+                                        <div class="col-md-8 ">
+                                            <span style="font-weight: bold">郎健科技公司担任前端开发：</span><br/>
+                                            <span style="font-size: 18px">用HTML、css、javascript技术，为某小型物流公司内部管理系统web版开发。</span><br/>
+                                            <br/>
+                                            <span style="font-weight: bold">web版简历：</span><br/>
+                                            <span style="font-size: 18px">利用bootstrap框架搭建了此Web版简历。</span><br/>
+                                            <br/>
+                                            <span style="font-weight: bold">个人博客的搭建及修改：</span><br/>
+                                            <span style="font-size: 18px">利用HEXO技术搭建个人博客，并对界面做出修改。</span><br/>
+                                            <br/>
+                                            <span style="font-weight: bold">模仿某互联网金融公司网站开发的响应式网站：</span><br/>
+                                            <span style="font-size: 18px">用媒体查询方法开发响应式网站，并用gult对项目进行打包。</span><br/>
+                                            <br/>
+                                            <span style="font-weight: bold">React.js画廊应用</span><br/>
+                                            <span style="font-size: 18px">应用Yoeman、Webpack前端自动化工具配置环境，用react.js进行开发。</span><br/>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="tab-pane text-style" id="more">
+                                    <div class="row">
+                                        <div class="col-md-8" >
+                                            <span>英语能力良好，读写及日常交流无障碍。</span><br/>
+                                            <span>耐心细致，吃苦耐劳，富有热情，性格温和，善于沟通。</span><br/>
+                                            <span>自学能力强，对互联网技术敏感。</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<footer class="footer">
+    <div>
+        <div class="copyright pull-right">
+            &copy; 2016, made by Marc Tong
+        </div>
+    </div>
+</footer>
+
+
+
+
+
+
+
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/dem.js"></script>
+</body>
 </html>
